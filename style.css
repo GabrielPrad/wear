@@ -117,6 +117,7 @@ body{
     background-image: url(./img/bg_detalhe.png);
     background-repeat: no-repeat;
     background-position: right bottom;
+    border-radius: 1rem;
 }
 
 .about h2{
