@@ -1,0 +1,164 @@
+body{
+    font-family: tahoma, arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#principal{
+    width: 1024px;
+    margin:  40px auto;
+}
+
+.bg-head{
+    width: 100%;
+    height: 488px;
+}
+
+.header-top{
+    height: 100px;
+    background-color: #060c1c;
+    position: relative;
+}
+
+.logotipo{
+    width: 109px;
+    margin: 10px 0 0 50px;
+}
+
+.header-nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 25px;
+}
+
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+}
+
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav a{
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+    transition: color .3s linear;
+}
+
+.header-nav a:hover{
+    color: aliceblue;
+}
+
+.portfolio{
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.portfolio h1{
+    font-size: 36px;
+    color: #252525;
+}
+
+.portfolio p{
+    font-size: 16px;
+    line-height: 2;
+    color: #555;
+}
+
+.spot{
+    margin-bottom: 50px;
+}
+
+.galery{
+    color: #555;
+    padding: 0 100px 50px 100px;
+    overflow: hidden;
+}
+
+.galery-card{
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+
+.foto{
+    width: 250px;
+    height: 250px;
+}
+
+#promo{
+    color: red;
+    text-decoration: line-through;
+}
+
+#new-price{
+    color: green;
+    font-weight: bold;
+}
+
+.galery-title{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.about{
+    color: aliceblue;
+    background-color: #003d52;
+    padding: 100px;
+    background-image: url(./img/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.about h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.about p{
+    line-height: 1.5;
+    width: 70%;
+}
+
+#contact{
+    margin: 50px 0;
+}
+
+#contact address{
+    color: #143f52;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+}
+
+.maps{
+    width: 100%;
+    height: 450px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.maps iframe{
+    width: 100%;
+}
+
+footer{
+    background-color: #0b171f;
+    padding: 25px;
+    font-size: 12px;
+    color: #6f8597;
+    letter-spacing: 5px;
+    text-align: center;
+}
